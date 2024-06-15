@@ -1,4 +1,3 @@
-import React from "react";
 import colleges2 from "./colleges.txt?raw";
 import Papa from "papaparse";
 

@@ -1,5 +1,4 @@
-import React from "react";
-export const ChevronDownIcon = ({strokeWidth = 1.5, ...otherProps}) => (
+export const ChevronDownIcon = ({strokeWidth = 1.5, ...otherProps}:any) => (
   <svg
     aria-hidden="true"
     fill="none"

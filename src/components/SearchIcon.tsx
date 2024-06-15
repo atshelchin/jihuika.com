@@ -1,5 +1,4 @@
-import React from "react";
-export const SearchIcon = (props) => (
+export const SearchIcon = (props:any) => (
   <svg
     aria-hidden="true"
     fill="none"
