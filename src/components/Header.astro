@@ -4,9 +4,9 @@ import { SITE_TITLE } from "../consts";
 ---
 
 <header>
-  <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
-    <div class="internal-links">
+  <nav class="flex  flex-col md:flex-row p-2">
+    <h3 class=""><a href="/">{SITE_TITLE}</a></h3>
+    <div class="internal-links  flex md:flex-row flex-col">
       <HeaderLink href="/">首页</HeaderLink>
       <HeaderLink href="/pointcheck">机会卡打分系统（在线自测）</HeaderLink>
       <HeaderLink href="/collegecheck"
@@ -44,10 +44,7 @@ import { SITE_TITLE } from "../consts";
     background: white;
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
   }
-  h2 {
-    margin: 0;
-    font-size: 1em;
-  }
+ 
 
   h2 a,
   h2 a.active {
@@ -59,7 +56,7 @@ import { SITE_TITLE } from "../consts";
     justify-content: space-between;
   }
   nav a {
-    padding: 1em 0.5em;
+    padding: 0.5em 0.5em;
     color: var(--black);
     border-bottom: 4px solid transparent;
     text-decoration: none;

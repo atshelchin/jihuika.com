@@ -3,7 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import FAQs from "../components/FAQs";
+import CollegeTable from "../components/CollegeTable"
 ---
 
 <!doctype html>
@@ -13,8 +13,8 @@ import FAQs from "../components/FAQs";
   </head>
   <body>
     <Header />
-    <main>
-    大学
+    <main  >
+ <CollegeTable client:visible/>
     </main>
     <Footer />
   </body>
